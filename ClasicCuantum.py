@@ -40,3 +40,6 @@ def barras(eje_x, eje_y, z):
     plt.xlabel('Estado')
     plt.title(z)
     plt.show()
+    
+if __name__ == '__main__':
+    barras(["x", "y", "z"],propabilistico([[0, 1 / 6, 5 / 6], [1 / 3, 1 / 2, 1 / 3], [2 / 3, 1 / 3, 0]], [1, 0, 0], 1)," Sistema Probabilistico")
